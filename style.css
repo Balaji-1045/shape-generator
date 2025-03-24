@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style:normal;
+   
+}
+   
+#input{
+    width: 100vw;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    background-image:url(https://cdn.pixabay.com/photo/2021/10/30/12/41/mountains-6754215_1280.jpg);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: cover;
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+}
+#number{
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+}
+#button{
+    width:120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(35, 104, 163);
+}
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: green;
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: red;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: green;
+}
